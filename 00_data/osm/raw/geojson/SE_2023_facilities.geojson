@@ -1,0 +1,4398 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-turbo",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2025-10-30T12:27:05Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/91221174",
+        "amenity": "shower",
+        "building": "yes",
+        "fee": "yes",
+        "opening_hours": "Mo-Su 06:00-23:00",
+        "supervised": "no",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3129534,
+          62.3670286
+        ]
+      },
+      "id": "way/91221174"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/120944533",
+        "access": "customers",
+        "amenity": "shower",
+        "building": "yes",
+        "toilets:disposal": "flush",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.4651829,
+          58.1843773
+        ]
+      },
+      "id": "way/120944533"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/168929231",
+        "amenity": "shower",
+        "building": "yes",
+        "source": "Bing",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6565898,
+          60.125794
+        ]
+      },
+      "id": "way/168929231"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/186188147",
+        "building": "yes",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1183638,
+          58.8806661
+        ]
+      },
+      "id": "way/186188147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/222762671",
+        "building:use": "service",
+        "building": "service",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.8122102,
+          59.4823374
+        ]
+      },
+      "id": "way/222762671"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/242666967",
+        "amenity": "shower",
+        "building": "yes",
+        "name": "Sjövattendusch",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6929564,
+          60.2584521
+        ]
+      },
+      "id": "way/242666967"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/258583733",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8810202,
+          59.3710084
+        ]
+      },
+      "id": "way/258583733"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/273707387",
+        "amenity": "shower",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2189144,
+          62.1850887
+        ]
+      },
+      "id": "way/273707387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/290833669",
+        "amenity": "shower",
+        "building": "yes",
+        "fixme": "tagging",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5181577,
+          59.0362112
+        ]
+      },
+      "id": "way/290833669"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/305718644",
+        "amenity": "shower",
+        "building": "civic",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8888007,
+          56.6465065
+        ]
+      },
+      "id": "way/305718644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/441775553",
+        "amenity": "shower",
+        "building": "yes",
+        "toilets": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4010212,
+          57.7694066
+        ]
+      },
+      "id": "way/441775553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/454637683",
+        "access": "yes",
+        "amenity": "shower",
+        "description": "Omklädningsrum",
+        "fee": "no",
+        "opening_hours": "Mo-Fr 07:00-21:00; Sa 09:00-20:30; Su 09:00-21:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6423393,
+          58.370809
+        ]
+      },
+      "id": "node/454637683"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/457298512",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0051533,
+          58.5528647
+        ]
+      },
+      "id": "node/457298512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/477274639",
+        "comment": "dusch",
+        "amenity": "shower",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.010573,
+          59.2689912
+        ]
+      },
+      "id": "way/477274639"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/496650846",
+        "amenity": "shower",
+        "access": "customers",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.2061823,
+          59.3316718
+        ]
+      },
+      "id": "way/496650846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/510741258",
+        "access": "yes",
+        "amenity": "shower",
+        "building": "yes",
+        "fee": "yes",
+        "male": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9788922,
+          60.8266038
+        ]
+      },
+      "id": "way/510741258"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/510741259",
+        "access": "yes",
+        "amenity": "shower",
+        "building": "yes",
+        "fee": "yes",
+        "female": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9789977,
+          60.8264587
+        ]
+      },
+      "id": "way/510741259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/513228677",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2739722,
+          58.9648992
+        ]
+      },
+      "id": "way/513228677"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/615697427",
+        "access": "permissive",
+        "amenity": "shower",
+        "building": "yes",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6548176,
+          58.000935
+        ]
+      },
+      "id": "way/615697427"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660251867",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7210311,
+          62.0819592
+        ]
+      },
+      "id": "way/660251867"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660251869",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7175409,
+          62.082584
+        ]
+      },
+      "id": "way/660251869"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660251870",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7195768,
+          62.0829444
+        ]
+      },
+      "id": "way/660251870"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660251871",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7190081,
+          62.0834555
+        ]
+      },
+      "id": "way/660251871"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660251872",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7184797,
+          62.083355
+        ]
+      },
+      "id": "way/660251872"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/660251874",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7186661,
+          62.0828762
+        ]
+      },
+      "id": "way/660251874"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/690860038",
+        "amenity": "shower",
+        "indoor": "room",
+        "level": "-1",
+        "ref": "320",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3043322,
+          62.4078526
+        ]
+      },
+      "id": "way/690860038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/690861754",
+        "amenity": "shower",
+        "indoor": "room",
+        "level": "-1",
+        "ref": "325",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3044862,
+          62.4077742
+        ]
+      },
+      "id": "way/690861754"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/697471425",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0082601,
+          59.3406657
+        ]
+      },
+      "id": "way/697471425"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/852972401",
+        "access": "permissive",
+        "amenity": "shower",
+        "fee": "no",
+        "shower": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0552008,
+          57.2734626
+        ]
+      },
+      "id": "node/852972401"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/853981663",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.049622,
+          57.2590086
+        ]
+      },
+      "id": "node/853981663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/863423353",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.558404,
+          59.4077348
+        ]
+      },
+      "id": "node/863423353"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1086397653",
+        "access": "yes",
+        "amenity": "shower",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3363572,
+          56.6510487
+        ]
+      },
+      "id": "way/1086397653"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1087157548",
+        "amenity": "shower",
+        "building": "roof",
+        "cold_water": "no",
+        "female": "yes",
+        "hot_water": "no",
+        "male": "yes",
+        "material": "wood",
+        "operator": "Hätteboda Vildmarkscamping",
+        "@geometry": "center"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8602986,
+          56.4905818
+        ]
+      },
+      "id": "way/1087157548"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1373205933",
+        "access": "yes",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6625255,
+          58.3981691
+        ]
+      },
+      "id": "node/1373205933"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1389941076",
+        "access": "permissive",
+        "amenity": "shower",
+        "female": "yes",
+        "male": "yes",
+        "operator": "Wasahamnen"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0951462,
+          59.3265548
+        ]
+      },
+      "id": "node/1389941076"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1390114432",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0589564,
+          55.6764951
+        ]
+      },
+      "id": "node/1390114432"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1413543322",
+        "amenity": "shower",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1010319,
+          59.4592527
+        ]
+      },
+      "id": "node/1413543322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1413623887",
+        "source": "survey",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1079855,
+          59.4677541
+        ]
+      },
+      "id": "node/1413623887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1719405845",
+        "amenity": "shower",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.99968,
+          55.6090129
+        ]
+      },
+      "id": "node/1719405845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1767924564",
+        "amenity": "shower",
+        "source": "survey"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9717828,
+          60.7538272
+        ]
+      },
+      "id": "node/1767924564"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1952254485",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6318664,
+          58.6383294
+        ]
+      },
+      "id": "node/1952254485"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1958648756",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0598535,
+          55.6734646
+        ]
+      },
+      "id": "node/1958648756"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2123045105",
+        "name": "dusch",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4549919,
+          56.0663199
+        ]
+      },
+      "id": "node/2123045105"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2481999406",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6787558,
+          58.3917217
+        ]
+      },
+      "id": "node/2481999406"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2488221725",
+        "amenity": "shower",
+        "source": "photo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1300297,
+          59.4426106
+        ]
+      },
+      "id": "node/2488221725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2501244242",
+        "amenity": "shower",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6955034,
+          60.2548485
+        ]
+      },
+      "id": "node/2501244242"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2501244243",
+        "amenity": "shower",
+        "female": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6956664,
+          60.2547517
+        ]
+      },
+      "id": "node/2501244243"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2603097538",
+        "addr:city": "Sörsjön",
+        "addr:country": "SE",
+        "addr:housenumber": "33",
+        "addr:postcode": "78069",
+        "addr:street": "Nornäsvägen",
+        "amenity": "shower",
+        "website": "https://www.bygdegardarna.se/nornas/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2418759,
+          61.4347868
+        ]
+      },
+      "id": "node/2603097538"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2915503186",
+        "access": "customers",
+        "amenity": "shower",
+        "drinking_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7087742,
+          57.1265814
+        ]
+      },
+      "id": "node/2915503186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2929703267",
+        "access": "permissive",
+        "amenity": "shower",
+        "hot_water": "yes",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.6945957,
+          60.2555773
+        ]
+      },
+      "id": "node/2929703267"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2942214102",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5399587,
+          59.3300039
+        ]
+      },
+      "id": "node/2942214102"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2980025658",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.635385,
+          57.7185626
+        ]
+      },
+      "id": "node/2980025658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2988403551",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.6247857,
+          58.5393354
+        ]
+      },
+      "id": "node/2988403551"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3051883779",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4662637,
+          58.7489519
+        ]
+      },
+      "id": "node/3051883779"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3053275074",
+        "access": "customers",
+        "amenity": "shower",
+        "hot_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4036433,
+          59.1359112
+        ]
+      },
+      "id": "node/3053275074"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3053338688",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3055917,
+          59.1208961
+        ]
+      },
+      "id": "node/3053338688"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3053488211",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9510962,
+          58.9000618
+        ]
+      },
+      "id": "node/3053488211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3053786281",
+        "amenity": "shower",
+        "seamark:small_craft_facility:category": "showers",
+        "seamark:type": "small_craft_facility"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9294504,
+          59.2912348
+        ]
+      },
+      "id": "node/3053786281"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3234197272",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0272901,
+          59.3276169
+        ]
+      },
+      "id": "node/3234197272"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3513574676",
+        "amenity": "shower",
+        "capacity": "1",
+        "charge": "20 SEK",
+        "fee": "yes",
+        "opening_hours": "24/7",
+        "operator": "Danfo",
+        "payment:cash": "no",
+        "payment:coins": "no",
+        "payment:contactless": "yes",
+        "payment:credit_cards": "yes",
+        "payment:debit_cards": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.16251,
+          55.371293
+        ]
+      },
+      "id": "node/3513574676"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3529981381",
+        "access": "yes",
+        "amenity": "shower",
+        "disused": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1788608,
+          59.3553182
+        ]
+      },
+      "id": "node/3529981381"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3533796657",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8208066,
+          58.7154686
+        ]
+      },
+      "id": "node/3533796657"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3649599142",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.9743343,
+          64.1565597
+        ]
+      },
+      "id": "node/3649599142"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3654824758",
+        "male": "yes",
+        "female": "no",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1136119,
+          65.1000726
+        ]
+      },
+      "id": "node/3654824758"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3658819691",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "supervised": "no",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1724257,
+          64.1074722
+        ]
+      },
+      "id": "node/3658819691"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660120461",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes",
+        "operator": "Getteröns Camping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2162091,
+          57.1159713
+        ]
+      },
+      "id": "node/3660120461"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660120553",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes",
+        "operator": "Getteröns Camping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2138239,
+          57.1174568
+        ]
+      },
+      "id": "node/3660120553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660120565",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes",
+        "operator": "Getteröns Camping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2154065,
+          57.1175767
+        ]
+      },
+      "id": "node/3660120565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660213814",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "no",
+        "operator": "Liseberg"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0296387,
+          57.7031623
+        ]
+      },
+      "id": "node/3660213814"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660236453",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "no",
+        "operator": "Jönköping SweCamp Villa Björkhagen",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2182367,
+          57.7870046
+        ]
+      },
+      "id": "node/3660236453"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3660283291",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes",
+        "operator": "Vita Sands Camping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2238993,
+          56.5687722
+        ]
+      },
+      "id": "node/3660283291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3691586301",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.2894582,
+          58.9097463
+        ]
+      },
+      "id": "node/3691586301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3693444214",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.8604484,
+          59.1748715
+        ]
+      },
+      "id": "node/3693444214"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694084919",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.2564184,
+          59.2636945
+        ]
+      },
+      "id": "node/3694084919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3694128387",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8847844,
+          59.231258
+        ]
+      },
+      "id": "node/3694128387"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3700214495",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.3420144,
+          59.5461576
+        ]
+      },
+      "id": "node/3700214495"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3702499013",
+        "amenity": "shower",
+        "opening_hours": "Jun-Aug"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.667029,
+          55.5891832
+        ]
+      },
+      "id": "node/3702499013"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3704435438",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.516421,
+          58.6867646
+        ]
+      },
+      "id": "node/3704435438"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3728347207",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.0755076,
+          56.6598914
+        ]
+      },
+      "id": "node/3728347207"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3804351516",
+        "amenity": "shower",
+        "fee": "no",
+        "supervised": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1534247,
+          56.5803312
+        ]
+      },
+      "id": "node/3804351516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3821475059",
+        "shower": "outdoor",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9411604,
+          55.5975918
+        ]
+      },
+      "id": "node/3821475059"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3821484356",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7294354,
+          56.6471016
+        ]
+      },
+      "id": "node/3821484356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3876366973",
+        "amenity": "shower",
+        "fee": "no",
+        "opening_hours": "Jun-Aug",
+        "shower": "outdoor",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8511799,
+          59.5717647
+        ]
+      },
+      "id": "node/3876366973"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3926618575",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7178161,
+          56.5086313
+        ]
+      },
+      "id": "node/3926618575"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4109121334",
+        "amenity": "shower",
+        "fee": "no",
+        "location": "outdoor",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0085647,
+          59.2818908
+        ]
+      },
+      "id": "node/4109121334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4203230780",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5221292,
+          58.1749092
+        ]
+      },
+      "id": "node/4203230780"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4216187340",
+        "access": "customers",
+        "amenity": "shower",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8084339,
+          55.9072654
+        ]
+      },
+      "id": "node/4216187340"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4226872306",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9683577,
+          56.118929
+        ]
+      },
+      "id": "node/4226872306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4227125989",
+        "amenity": "shower",
+        "seasonal": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.9119739,
+          64.040669
+        ]
+      },
+      "id": "node/4227125989"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4271563815",
+        "access": "customers",
+        "amenity": "shower",
+        "hot_water": "fee",
+        "location": "indoor",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3375454,
+          55.5690226
+        ]
+      },
+      "id": "node/4271563815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4271563816",
+        "access": "customers",
+        "amenity": "shower",
+        "female": "yes",
+        "hot_water": "fee",
+        "location": "indoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.3375186,
+          55.569244
+        ]
+      },
+      "id": "node/4271563816"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4307028592",
+        "access": "permissive",
+        "amenity": "shower",
+        "level": "-1",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1621835,
+          68.4199737
+        ]
+      },
+      "id": "node/4307028592"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4310359589",
+        "access": "yes",
+        "amenity": "shower",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1851466,
+          68.2040432
+        ]
+      },
+      "id": "node/4310359589"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4325890448",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2232391,
+          63.8258542
+        ]
+      },
+      "id": "node/4325890448"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4339502715",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6419701,
+          59.8524065
+        ]
+      },
+      "id": "node/4339502715"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4340094565",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6209662,
+          59.8622642
+        ]
+      },
+      "id": "node/4340094565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4345423642",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6344425,
+          59.7833428
+        ]
+      },
+      "id": "node/4345423642"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4345436107",
+        "amenity": "shower",
+        "fee": "no",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6246831,
+          59.9047985
+        ]
+      },
+      "id": "node/4345436107"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4348401290",
+        "access": "yes",
+        "amenity": "shower",
+        "opening_hours": "24/7",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.7920295,
+          68.3578433
+        ]
+      },
+      "id": "node/4348401290"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4348589703",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.2471685,
+          67.8604736
+        ]
+      },
+      "id": "node/4348589703"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4362460144",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.6953985,
+          59.81272
+        ]
+      },
+      "id": "node/4362460144"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4497519147",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6352448,
+          57.6922859
+        ]
+      },
+      "id": "node/4497519147"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4502314873",
+        "opening_hours": "Jun-Aug",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0766918,
+          59.2538438
+        ]
+      },
+      "id": "node/4502314873"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4633538718",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7773301,
+          60.7849899
+        ]
+      },
+      "id": "node/4633538718"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4639682109",
+        "amenity": "shower",
+        "fee": "no",
+        "name": "Dusch",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0961826,
+          59.3437514
+        ]
+      },
+      "id": "node/4639682109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4935674181",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6094873,
+          58.395548
+        ]
+      },
+      "id": "node/4935674181"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4973725977",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0640706,
+          59.0639432
+        ]
+      },
+      "id": "node/4973725977"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4977754848",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.1301394,
+          56.4592405
+        ]
+      },
+      "id": "node/4977754848"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4987668184",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1397538,
+          59.3678095
+        ]
+      },
+      "id": "node/4987668184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4993171090",
+        "amenity": "shower",
+        "man_made": "drinking_fountain"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9073609,
+          55.5755293
+        ]
+      },
+      "id": "node/4993171090"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5009971854",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.5148303,
+          59.9547699
+        ]
+      },
+      "id": "node/5009971854"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5017014736",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.0650842,
+          59.473621
+        ]
+      },
+      "id": "node/5017014736"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5018793327",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4375545,
+          59.4513209
+        ]
+      },
+      "id": "node/5018793327"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5029647399",
+        "unisex": "yes",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.017913,
+          58.9785124
+        ]
+      },
+      "id": "node/5029647399"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5029647643",
+        "unisex": "yes",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.018037,
+          58.9782045
+        ]
+      },
+      "id": "node/5029647643"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5224583184",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0176717,
+          63.1898785
+        ]
+      },
+      "id": "node/5224583184"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5403558430",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.195437,
+          58.5836074
+        ]
+      },
+      "id": "node/5403558430"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5416149886",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.1976272,
+          58.7209082
+        ]
+      },
+      "id": "node/5416149886"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5422171027",
+        "unisex": "yes",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.1324042,
+          59.2696743
+        ]
+      },
+      "id": "node/5422171027"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5762558357",
+        "amenity": "shower",
+        "fee": "no",
+        "operator": "Kronoskogsbadet",
+        "supervised": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.9512824,
+          56.8421213
+        ]
+      },
+      "id": "node/5762558357"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5765421881",
+        "fee": "no",
+        "description:en": "Cold shower, no wind shield.",
+        "access": "yes",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7340175,
+          57.7417301
+        ]
+      },
+      "id": "node/5765421881"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5777934220",
+        "amenity": "shower",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.230746,
+          59.0075987
+        ]
+      },
+      "id": "node/5777934220"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5827145033",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8373732,
+          56.2670987
+        ]
+      },
+      "id": "node/5827145033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5827145035",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8362773,
+          56.2647707
+        ]
+      },
+      "id": "node/5827145035"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5827145039",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.833976,
+          56.260442
+        ]
+      },
+      "id": "node/5827145039"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5834272034",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2091586,
+          55.3637204
+        ]
+      },
+      "id": "node/5834272034"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5837957153",
+        "access": "customers",
+        "amenity": "shower",
+        "operator": "Langholmens Husbilcamping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0325206,
+          59.3203892
+        ]
+      },
+      "id": "node/5837957153"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5838997376",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7834765,
+          56.4534752
+        ]
+      },
+      "id": "node/5838997376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5851927398",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.7198342,
+          56.8827406
+        ]
+      },
+      "id": "node/5851927398"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5857079278",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5966755,
+          59.625201
+        ]
+      },
+      "id": "node/5857079278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5857079312",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6064226,
+          59.6230228
+        ]
+      },
+      "id": "node/5857079312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5867171586",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "opening_hours": "24/7",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.1749529,
+          59.2831005
+        ]
+      },
+      "id": "node/5867171586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5929404524",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5360044,
+          59.3212699
+        ]
+      },
+      "id": "node/5929404524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6131145644",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.7255301,
+          59.6247632
+        ]
+      },
+      "id": "node/6131145644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6136077500",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.2806204,
+          56.6488331
+        ]
+      },
+      "id": "node/6136077500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6166308005",
+        "supervised": "no",
+        "operator": "Mönsterås kommun",
+        "opening_hours": "24/7",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4467227,
+          56.9626883
+        ]
+      },
+      "id": "node/6166308005"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6181743794",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.716814,
+          62.0829745
+        ]
+      },
+      "id": "node/6181743794"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6576670585",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.0273795,
+          59.3780346
+        ]
+      },
+      "id": "node/6576670585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6605120685",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.4878374,
+          59.3684132
+        ]
+      },
+      "id": "node/6605120685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6627386088",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.814456,
+          56.2369347
+        ]
+      },
+      "id": "node/6627386088"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6641718512",
+        "access": "permissive",
+        "amenity": "shower",
+        "fee": "no",
+        "supervised": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6434005,
+          56.7268197
+        ]
+      },
+      "id": "node/6641718512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6652865512",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.5850384,
+          57.8866292
+        ]
+      },
+      "id": "node/6652865512"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6653560208",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "no",
+        "location": "outdoor",
+        "opening_hours": "24/7",
+        "supervised": "no",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7034448,
+          58.4310704
+        ]
+      },
+      "id": "node/6653560208"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6653560212",
+        "access": "key",
+        "amenity": "shower",
+        "fee": "yes",
+        "hot_water": "yes",
+        "location": "indoor",
+        "supervised": "yes",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.7035625,
+          58.4311552
+        ]
+      },
+      "id": "node/6653560212"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6668178283",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "opening_hours": "24/7"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5948672,
+          56.3516622
+        ]
+      },
+      "id": "node/6668178283"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6696654699",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9123362,
+          59.8335773
+        ]
+      },
+      "id": "node/6696654699"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6696654700",
+        "access": "customers",
+        "amenity": "shower",
+        "operator": "Fjällnora Friluftsgård",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9122867,
+          59.8358153
+        ]
+      },
+      "id": "node/6696654700"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6703430269",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7575446,
+          55.9670162
+        ]
+      },
+      "id": "node/6703430269"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6708246952",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.9754998,
+          58.7846423
+        ]
+      },
+      "id": "node/6708246952"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6717377109",
+        "access": "customers",
+        "amenity": "shower",
+        "female": "yes",
+        "male": "yes",
+        "operator": "Nikkaluaokta Sarri AB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0136164,
+          67.8509933
+        ]
+      },
+      "id": "node/6717377109"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6721090541",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.429005,
+          59.9415178
+        ]
+      },
+      "id": "node/6721090541"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6724974547",
+        "amenity": "shower",
+        "wheelchair": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8625747,
+          59.5677444
+        ]
+      },
+      "id": "node/6724974547"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6724974550",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8581772,
+          59.5683907
+        ]
+      },
+      "id": "node/6724974550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6765703362",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7193775,
+          59.0454267
+        ]
+      },
+      "id": "node/6765703362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6805787891",
+        "hot_water": "yes",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2008543,
+          58.6905013
+        ]
+      },
+      "id": "node/6805787891"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6823947999",
+        "amenity": "shower",
+        "opening_hours": "11:00-17:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4172726,
+          62.7354072
+        ]
+      },
+      "id": "node/6823947999"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/6957520585",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0760964,
+          63.3990251
+        ]
+      },
+      "id": "node/6957520585"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7008591888",
+        "name:en": "close in winter",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5005174,
+          62.1631325
+        ]
+      },
+      "id": "node/7008591888"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7101756303",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3580137,
+          63.170064
+        ]
+      },
+      "id": "node/7101756303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7124827795",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.3115486,
+          59.0809694
+        ]
+      },
+      "id": "node/7124827795"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7141411809",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.9181768,
+          59.2921202
+        ]
+      },
+      "id": "node/7141411809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7154071129",
+        "access": "yes",
+        "amenity": "shower",
+        "check_date": "2020-01-23"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0423485,
+          59.3398807
+        ]
+      },
+      "id": "node/7154071129"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7161217306",
+        "access": "yes",
+        "amenity": "shower",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3768962,
+          59.3244999
+        ]
+      },
+      "id": "node/7161217306"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7316119661",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4411033,
+          62.8091741
+        ]
+      },
+      "id": "node/7316119661"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319663192",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.3711329,
+          59.5077564
+        ]
+      },
+      "id": "node/7319663192"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319673663",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.1676615,
+          56.3957351
+        ]
+      },
+      "id": "node/7319673663"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319711274",
+        "hot_water": "yes",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6720909,
+          62.4082532
+        ]
+      },
+      "id": "node/7319711274"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319711278",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5976717,
+          58.6799398
+        ]
+      },
+      "id": "node/7319711278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319712599",
+        "amenity": "shower",
+        "hot_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.045098,
+          57.1907472
+        ]
+      },
+      "id": "node/7319712599"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319726629",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.5388114,
+          62.9706423
+        ]
+      },
+      "id": "node/7319726629"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7319737020",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5654203,
+          55.9021566
+        ]
+      },
+      "id": "node/7319737020"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7466403146",
+        "amenity": "shower",
+        "description": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.5443382,
+          56.2148447
+        ]
+      },
+      "id": "node/7466403146"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7556858748",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0599918,
+          59.285353
+        ]
+      },
+      "id": "node/7556858748"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7569482687",
+        "survey:date": "2020-05-29",
+        "amenity": "shower",
+        "access": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0595096,
+          59.2962845
+        ]
+      },
+      "id": "node/7569482687"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7619218291",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1752572,
+          58.0219407
+        ]
+      },
+      "id": "node/7619218291"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7620075332",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "supervised": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0583669,
+          55.6592776
+        ]
+      },
+      "id": "node/7620075332"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7635152301",
+        "amenity": "shower",
+        "check_date": "2020-06-19",
+        "access": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0727718,
+          59.3400373
+        ]
+      },
+      "id": "node/7635152301"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7650672056",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0078875,
+          59.3604844
+        ]
+      },
+      "id": "node/7650672056"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7663068457",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.6174049,
+          58.4079528
+        ]
+      },
+      "id": "node/7663068457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7681234845",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0970753,
+          59.2477829
+        ]
+      },
+      "id": "node/7681234845"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7689229573",
+        "unisex": "yes",
+        "fee": "yes",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3377005,
+          63.0652275
+        ]
+      },
+      "id": "node/7689229573"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7711731685",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.6812907,
+          56.058723
+        ]
+      },
+      "id": "node/7711731685"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7760724033",
+        "access": "customers",
+        "amenity": "shower",
+        "capacity": "2",
+        "fee": "no",
+        "female": "yes",
+        "male": "no",
+        "opening_hours": "24/7",
+        "operator": "Bureå Camping",
+        "unisex": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1824768,
+          64.6172516
+        ]
+      },
+      "id": "node/7760724033"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7760724042",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "no",
+        "female": "yes",
+        "male": "no",
+        "opening_hours": "24/7",
+        "operator": "Bureå Camping",
+        "unisex": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          21.1824989,
+          64.6172335
+        ]
+      },
+      "id": "node/7760724042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7764712500",
+        "amenity": "shower",
+        "capacity": "2",
+        "female": "yes",
+        "male": "no",
+        "operator": "Bureå Camping",
+        "unisex": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.5258494,
+          65.5345237
+        ]
+      },
+      "id": "node/7764712500"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7764712503",
+        "amenity": "shower",
+        "capacity": "1",
+        "description": "Actually capacity of 2 but one shower is forced to really hot water.",
+        "female": "no",
+        "male": "yes",
+        "operator": "Bureå Camping",
+        "unisex": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.525665,
+          65.5344614
+        ]
+      },
+      "id": "node/7764712503"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7772738322",
+        "amenity": "shower",
+        "capacity": "3",
+        "female": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.199418,
+          65.5836778
+        ]
+      },
+      "id": "node/7772738322"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7772757961",
+        "amenity": "shower",
+        "capacity": "3",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1993715,
+          65.5836312
+        ]
+      },
+      "id": "node/7772757961"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7783784957",
+        "amenity": "shower",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1152576,
+          65.1006404
+        ]
+      },
+      "id": "node/7783784957"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7790788830",
+        "access": "customers",
+        "amenity": "shower",
+        "female": "yes",
+        "male": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.1136831,
+          65.1000042
+        ]
+      },
+      "id": "node/7790788830"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7934217787",
+        "access": "customers",
+        "amenity": "shower",
+        "hot_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.4035815,
+          59.1358435
+        ]
+      },
+      "id": "node/7934217787"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/7966212689",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6031285,
+          58.2032747
+        ]
+      },
+      "id": "node/7966212689"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8524303978",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8571986,
+          58.7685785
+        ]
+      },
+      "id": "node/8524303978"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8565948293",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8962926,
+          59.3364732
+        ]
+      },
+      "id": "node/8565948293"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8565954919",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.8991672,
+          59.3367609
+        ]
+      },
+      "id": "node/8565954919"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8713601507",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9652735,
+          55.6054093
+        ]
+      },
+      "id": "node/8713601507"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8730336552",
+        "amenity": "give_box",
+        "fixme": "Kolla om de fortfarande låter folk ta hem vissa möbler som står utanför osv.",
+        "name": "Återbruket",
+        "operator": "Falu Energi & Vatten AB",
+        "website": "https://fev.se/atervinning/sopsortering/aterbruket-falun.html"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.5770639,
+          60.6130207
+        ]
+      },
+      "id": "node/8730336552"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8905308475",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0713593,
+          58.3965972
+        ]
+      },
+      "id": "node/8905308475"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8919865624",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.2531894,
+          59.2776885
+        ]
+      },
+      "id": "node/8919865624"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8923250730",
+        "access": "customers",
+        "amenity": "shower",
+        "hot_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9600191,
+          59.3074878
+        ]
+      },
+      "id": "node/8923250730"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8923250744",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9615999,
+          59.3073784
+        ]
+      },
+      "id": "node/8923250744"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8929351765",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.6231262,
+          59.4484837
+        ]
+      },
+      "id": "node/8929351765"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8938586721",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1814393,
+          57.0367533
+        ]
+      },
+      "id": "node/8938586721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8939173753",
+        "access": "customers",
+        "amenity": "shower",
+        "hot_water": "fee",
+        "unisex": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1921241,
+          59.0359579
+        ]
+      },
+      "id": "node/8939173753"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8939357553",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4971189,
+          57.0124694
+        ]
+      },
+      "id": "node/8939357553"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8960990457",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.900421,
+          62.6423607
+        ]
+      },
+      "id": "node/8960990457"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8990657887",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.7191564,
+          56.0106683
+        ]
+      },
+      "id": "node/8990657887"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/8991431042",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4606552,
+          59.2509855
+        ]
+      },
+      "id": "node/8991431042"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9017688517",
+        "operator": "Kåseberga hamn",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.062835,
+          55.3836879
+        ]
+      },
+      "id": "node/9017688517"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9026012166",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.4442656,
+          58.4937748
+        ]
+      },
+      "id": "node/9026012166"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9038495822",
+        "access": "restricted",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2813518,
+          58.5975539
+        ]
+      },
+      "id": "node/9038495822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9053519420",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.2169187,
+          58.3548521
+        ]
+      },
+      "id": "node/9053519420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9090345004",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.0573309,
+          55.6891641
+        ]
+      },
+      "id": "node/9090345004"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9260634062",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.467318,
+          67.7228524
+        ]
+      },
+      "id": "node/9260634062"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9396300197",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0496926,
+          59.7208375
+        ]
+      },
+      "id": "node/9396300197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9396300198",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0503906,
+          59.7208336
+        ]
+      },
+      "id": "node/9396300198"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9396300199",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.0511807,
+          59.7206345
+        ]
+      },
+      "id": "node/9396300199"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9407688284",
+        "amenity": "shower",
+        "description": "Utomhus dush, sommartid",
+        "fee": "no",
+        "hot_water": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.928743,
+          59.4801909
+        ]
+      },
+      "id": "node/9407688284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9425573303",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4047452,
+          58.6602603
+        ]
+      },
+      "id": "node/9425573303"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9583661251",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "yes",
+        "location": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9552566,
+          55.5989061
+        ]
+      },
+      "id": "node/9583661251"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9583661253",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "yes",
+        "location": "outdoor"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9735262,
+          55.60419
+        ]
+      },
+      "id": "node/9583661253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9651707421",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "no",
+        "supervised": "no",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0063287,
+          59.301314
+        ]
+      },
+      "id": "node/9651707421"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9670627858",
+        "amenity": "shower",
+        "toilets": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2109947,
+          58.6436168
+        ]
+      },
+      "id": "node/9670627858"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9761519253",
+        "access": "yes",
+        "amenity": "shower",
+        "check_date": "2022-05-22",
+        "fee": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          20.955572,
+          64.7481283
+        ]
+      },
+      "id": "node/9761519253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9780307524",
+        "access": "private",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.3039992,
+          59.4054165
+        ]
+      },
+      "id": "node/9780307524"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9811489172",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.4381874,
+          58.8685185
+        ]
+      },
+      "id": "node/9811489172"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9825242054",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes",
+        "hot_water": "yes",
+        "opening_hours": "24/7",
+        "supervised": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.104441,
+          58.0302279
+        ]
+      },
+      "id": "node/9825242054"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9850580032",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "no",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          17.9661876,
+          59.3151102
+        ]
+      },
+      "id": "node/9850580032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9874759941",
+        "unisex": "yes",
+        "fee": "no",
+        "amenity": "shower",
+        "access": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.0521703,
+          58.2984472
+        ]
+      },
+      "id": "node/9874759941"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9874892770",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "no",
+        "female": "yes",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          19.1927392,
+          58.3903522
+        ]
+      },
+      "id": "node/9874892770"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9883550518",
+        "access": "yes",
+        "amenity": "shower",
+        "charge": "0",
+        "fee": "no",
+        "hot_water": "no",
+        "opening_hours": "Mo-Sa 00:00-23:59",
+        "supervised": "no",
+        "survey:date": "2022-07-12",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8360051,
+          58.3710617
+        ]
+      },
+      "id": "node/9883550518"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9883613719",
+        "access": "yes",
+        "amenity": "shower",
+        "charge": "0",
+        "fee": "no",
+        "hot_water": "no",
+        "opening_hours": "Mo-Sa 00:00-23:59",
+        "supervised": "no",
+        "survey:date": "2022-07-12",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.8360051,
+          58.3710617
+        ]
+      },
+      "id": "node/9883613719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9897541191",
+        "amenity": "shower",
+        "fee": "no",
+        "location": "outdoor",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7435228,
+          56.6441595
+        ]
+      },
+      "id": "node/9897541191"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9906506586",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.8296318,
+          56.2539232
+        ]
+      },
+      "id": "node/9906506586"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9918586650",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.107047,
+          59.289722
+        ]
+      },
+      "id": "node/9918586650"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9931429983",
+        "access": "yes",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7608363,
+          56.3079574
+        ]
+      },
+      "id": "node/9931429983"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9931650542",
+        "access": "yes",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7609195,
+          56.3079267
+        ]
+      },
+      "id": "node/9931650542"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9931657170",
+        "access": "yes",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7609195,
+          56.3079267
+        ]
+      },
+      "id": "node/9931657170"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9934215186",
+        "operator": "Stensö Camping",
+        "fee": "no",
+        "amenity": "shower",
+        "access": "customers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3237989,
+          56.647886
+        ]
+      },
+      "id": "node/9934215186"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9935904805",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.4758524,
+          57.1556496
+        ]
+      },
+      "id": "node/9935904805"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9936632259",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.189631,
+          57.189316
+        ]
+      },
+      "id": "node/9936632259"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9936632260",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.1918603,
+          57.1904616
+        ]
+      },
+      "id": "node/9936632260"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9939200358",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "no",
+        "unisex": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.5043135,
+          55.4759782
+        ]
+      },
+      "id": "node/9939200358"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9948921934",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.8939228,
+          58.2546075
+        ]
+      },
+      "id": "node/9948921934"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9950139310",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2525078,
+          58.9537482
+        ]
+      },
+      "id": "node/9950139310"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9950139312",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2526339,
+          58.9522072
+        ]
+      },
+      "id": "node/9950139312"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9950139314",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.2562441,
+          58.9524361
+        ]
+      },
+      "id": "node/9950139314"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9953082211",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          16.3770523,
+          56.7571762
+        ]
+      },
+      "id": "node/9953082211"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9962256761",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "no",
+        "opening_hours": "24/7",
+        "supervised": "no",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9058511,
+          55.5712373
+        ]
+      },
+      "id": "node/9962256761"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9962594443",
+        "access": "customers",
+        "amenity": "shower",
+        "female": "yes",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.1325667,
+          57.5102858
+        ]
+      },
+      "id": "node/9962594443"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9969416719",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          11.794029,
+          57.5986438
+        ]
+      },
+      "id": "node/9969416719"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9974550478",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.0210452,
+          64.2821478
+        ]
+      },
+      "id": "node/9974550478"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9975013225",
+        "amenity": "shower",
+        "cold_water": "yes",
+        "fee": "yes",
+        "hot_water": "yes",
+        "location": "indoor",
+        "operator": "Strömsnäs Naturcamping",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.4049772,
+          58.5900573
+        ]
+      },
+      "id": "node/9975013225"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9979806444",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.2456176,
+          56.6079958
+        ]
+      },
+      "id": "node/9979806444"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9979845803",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9354914,
+          56.4915208
+        ]
+      },
+      "id": "node/9979845803"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/9985850053",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.7586752,
+          56.3275314
+        ]
+      },
+      "id": "node/9985850053"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10012956262",
+        "access": "customers",
+        "amenity": "shower",
+        "fee": "yes",
+        "unisex": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6030941,
+          55.3937161
+        ]
+      },
+      "id": "node/10012956262"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10012956263",
+        "access": "yes",
+        "amenity": "shower",
+        "fee": "no",
+        "hot_water": "no",
+        "opening_hours": "24/7",
+        "operator": "Abbekås Hamn",
+        "unisex": "yes",
+        "wheelchair": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.6032324,
+          55.3932831
+        ]
+      },
+      "id": "node/10012956263"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10029070600",
+        "access": "customers",
+        "amenity": "shower",
+        "operator": "Langholmens Husbilcamping"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          18.0327937,
+          59.3203807
+        ]
+      },
+      "id": "node/10029070600"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10037871032",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          14.5027568,
+          58.540728
+        ]
+      },
+      "id": "node/10037871032"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10048295721",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          12.9674505,
+          55.6027789
+        ]
+      },
+      "id": "node/10048295721"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10083787167",
+        "access": "customers",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          13.8221748,
+          58.4050172
+        ]
+      },
+      "id": "node/10083787167"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/10291145778",
+        "amenity": "shower"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          15.4278181,
+          59.9401038
+        ]
+      },
+      "id": "node/10291145778"
+    }
+  ]
+}
