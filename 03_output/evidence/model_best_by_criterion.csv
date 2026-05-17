@@ -1,0 +1,6 @@
+"response_index","response_var","excluded_specs","best_KICb2_specs","best_KICb2_fits","best_KICb2_value","best_FH_R2_specs","best_FH_R2_fits","best_FH_R2_value"
+1,"F1_Direct","","c","best_fit_1c",-703.5927,"c","best_fit_1c",0.5030426
+2,"F2_Direct","","c","best_fit_2c",-672.3859,"c","best_fit_2c",0.4388695
+3,"F3_Direct","","a, c","best_fit_3a, best_fit_3c",-701.1967,"a, c","best_fit_3a, best_fit_3c",0.2605626
+4,"F4_Direct","","c","best_fit_4c",-676.786,"c","best_fit_4c",0.4396251
+5,"F5_Direct","","c","best_fit_5c",-614.6499,"c","best_fit_5c",0.4706934

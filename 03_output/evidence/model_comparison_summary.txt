@@ -1,0 +1,25 @@
+Dependent variable 1 (F1_Direct)
+  Excluded specs: 
+  Best KICb2: spec c (best_fit_1c) | KICb2=-703.5927
+  Best FH-R²: spec c (best_fit_1c) | FH-R²=0.5030
+
+Dependent variable 2 (F2_Direct)
+  Excluded specs: 
+  Best KICb2: spec c (best_fit_2c) | KICb2=-672.3859
+  Best FH-R²: spec c (best_fit_2c) | FH-R²=0.4389
+
+Dependent variable 3 (F3_Direct)
+  Excluded specs: 
+  Best KICb2: spec a, c (best_fit_3a, best_fit_3c) | KICb2=-701.1967
+  Best FH-R²: spec a, c (best_fit_3a, best_fit_3c) | FH-R²=0.2606
+
+Dependent variable 4 (F4_Direct)
+  Excluded specs: 
+  Best KICb2: spec c (best_fit_4c) | KICb2=-676.7860
+  Best FH-R²: spec c (best_fit_4c) | FH-R²=0.4396
+
+Dependent variable 5 (F5_Direct)
+  Excluded specs: 
+  Best KICb2: spec c (best_fit_5c) | KICb2=-614.6499
+  Best FH-R²: spec c (best_fit_5c) | FH-R²=0.4707
+
