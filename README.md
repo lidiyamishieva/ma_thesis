@@ -86,3 +86,15 @@ Please cite the dataset as follows:
 > <https://doi.org/10.21338/ess11e04_1>
 
 All other files listed above are generated automatically when running the project scripts in the required order.
+
+## R package environment
+
+This project uses `renv` to record the R package environment used for the analysis.
+
+After cloning the repository, install the required R packages by running the following command from the project root:
+
+```r
+renv::restore()
+```
+
+This will install the package versions recorded in `renv.lock`.
