@@ -1,0 +1,65 @@
+TITLE: thesis ess11 factor scores
+
+DATA: FILE = ess11_analysis_dataset_mplus_nocolnames.csv ;
+
+VARIABLE:
+
+NAMES = ppltrst pplfair pplhlp 
+        sclmeet inprdsc sclact
+        imbgeco imueclt imwbcnt
+        trstprl trstlgl trstplt trstprt 
+        stfgov stfdem stfedu stfhlth
+        row_id
+        nuts1_num;
+
+USEVARIABLES =  ppltrst pplfair pplhlp 
+                sclmeet inprdsc sclact
+                imbgeco imueclt imwbcnt
+                trstprl trstplt trstprt 
+                !trstlgl was taken out of the model
+                stfgov stfdem stfedu stfhlth
+                nuts1_num;
+
+AUXILIARY = row_id;
+
+CLUSTER = nuts1_num;
+
+ANALYSIS: 
+
+TYPE = TWOLEVEL;
+ESTIMATOR = MLR;
+ALGORITHM=INTEGRATION;
+INTEGRATION = MONTECARLO; 
+!INTEGRATION = MONTECARLO(1000);
+!MCCONVERGENCE = 0.00001
+MCSEED = 123;
+
+MODEL:
+
+%WITHIN%
+f1w BY ppltrst pplfair pplhlp;
+f2w BY sclmeet inprdsc sclact;
+f3w BY imbgeco imueclt imwbcnt;
+f4w BY trstprl trstplt trstprt; !trstlgl was taken out of the model
+f5w BY stfgov stfdem stfedu stfhlth;
+
+%BETWEEN%
+f1b BY ppltrst pplfair pplhlp;
+f2b BY sclmeet inprdsc sclact;
+f3b BY imbgeco imueclt imwbcnt;
+f4b BY trstprl trstplt trstprt; !trstlgl was taken out of the model
+f5b BY stfgov stfdem stfedu stfhlth;
+
+OUTPUT: TECH1;
+
+SAVEDATA: 
+
+FILE IS ess11_analysis_dataset_mplus_nocolnames_fscores_nuts1.csv; 
+SAVE = FSCORES;
+
+
+
+
+
+
+
