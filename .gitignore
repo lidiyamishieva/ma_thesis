@@ -47,3 +47,6 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+00_data/derived/osm_data_combined_2023.csv
+00_data/derived/osm_data_combined_2023.geojson
