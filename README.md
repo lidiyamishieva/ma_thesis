@@ -1,21 +1,21 @@
-# The use of OpenStreetMaps in small area estimation of social cohesion
+# The use of OpenStreetMap in small area estimation of social cohesion
 # Master's thesis in Methodology & Statistics
 
-Dear guest, 
+Dear guest,
 
 To support reproducibility, the materials required to reproduce the analysis in my thesis will be made available in this repository on 18 May 2026.
-The repository will contain the relevant data, analysis scripts, and output files. 
-Detailed instructions for reproducing the results will be provided in the repository README file.
 
-For now, only some files are uploaded, the ones referred to as Supplementary Materials in the paper itself.
+The repository will contain the relevant data, analysis scripts, and output files. For now, only some files are uploaded: the files referred to as Supplementary Materials in the thesis itself.
+
+Detailed instructions for reproducing the results will be provided in this README once the repository is complete.
 
 Have a great day!
 
 Lidiya
 
-## TBA
+## Reproducibility instructions
 
-...
+Please keep the repository folder structure unchanged. All scripts should be run from the repository root directory.
 
 ## Running the scripts
 
@@ -41,9 +41,10 @@ The scripts in `01_scripts/` require outputs produced by previous scripts. There
 16_results_tables.R
 17_describe_data_tbls_plots.R
 ```
-Scripts `08_fit_small_area_models.R` and `09_fit_sensitivity.R` use multicore processing on Unix-like systems. 
-If running the project on Windows, the parallel processing setup may need to be adjusted. 
-Details on how to do this are included in the relevant scripts.
+
+Scripts `08_fit_small_area_models.R` and `09_fit_sensitivity.R` use multicore processing on Unix-like systems. If running the project on Windows, the parallel processing setup may need to be adjusted. Details on how to do this are included in the relevant scripts.
+
+## Data files not included in this repository
 
 The following files are **not included** in this repository due to GitHub file size restrictions:
 
