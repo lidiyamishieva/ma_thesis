@@ -16,6 +16,16 @@ Lidiya
 
 # TBA
 
+- Short summary of the aim of this repo / Intro
+- Folder structure
+- Instructions on the Mplus step 
+- Rproj file
+- Prerequisites for reproducing results
+- More details about the scripts
+- Ethics
+- License
+- Permission and access
+
 ## Reproducibility instructions
 
 Please keep the repository folder structure unchanged. All scripts should be run from the repository root directory.
