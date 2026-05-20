@@ -1,18 +1,16 @@
 # The use of OpenStreetMap in small area estimation of social cohesion
 
-# Master's thesis in Methodology & Statistics
+## Introduction
 
-Dear guest,
+This repository contains the data and code needed to reproduce the findings of my master's thesis, which examines whether OpenStreetMap data can serve as a new source of auxiliary information for producing small area estimates of social cohesion across European sub-national regions. The study responds to the need for reliable evidence on regional differences in social cohesion for policy-making. While survey data are well suited for measuring social indicators, they often provide too few observations within individual regions to support stable sub-national estimates. Small area estimation (SAE) offers a methodological tool for producing more efficient regional estimates via a model-based approach. OpenStreetMap is examined as a new auxiliary data source because it provides geo-referenced high-resolution information that may help explain regional variation in social cohesion.
 
-To support reproducibility, the materials required to reproduce the analysis in my thesis will be made available in this repository on 18 May 2026.
+In the first step, a multilevel confirmatory factor analysis model is estimated using individual survey data from the European Social Survey (ESS) Round 11. Individual factor scores for each of the five latent social cohesion dimensions are then predicted and aggregated to the sub-national level through direct estimation. In the second step, Fay-Herriot small area models are fitted for each dimension using three auxiliary-data specifications: administrative data only, OpenStreetMap data only, and both sources combined. The models are compared in terms of efficiency gains, agreement with direct estimates, and validation against external evidence.
 
-The repository will contain the relevant data, analysis scripts, and output files. For now, only some files are uploaded: the files referred to as Supplementary Materials in the thesis itself.
+The results show that OpenStreetMap-based specifications improve the precision of the estimates markedly less than specifications based on administrative data. However, OSM-based models preserve the direct survey signal more closely and avoid some of the stronger regional reorderings introduced by administrative models. The thesis therefore argues that low-explanatory-power models can still be
+valuable in SAE when stronger models risk misrepresenting regional patterns.
 
-Detailed instructions for reproducing the results will be provided in this README once the repository is complete.
 
-Have a great day!
 
-Lidiya
 
 # TBA
 
