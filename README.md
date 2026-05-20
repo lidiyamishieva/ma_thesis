@@ -2,66 +2,68 @@
 
 ## Introduction
 
-This repository contains the data and code needed to reproduce the findings of my master's thesis, which examines whether OpenStreetMap data can serve as a new source of auxiliary information for producing small area estimates of social cohesion across European sub-national regions. The study responds to the need for reliable evidence on regional differences in social cohesion for policy-making. While survey data are well suited for measuring social indicators, they often provide too few observations within individual regions to support stable sub-national estimates. Small area estimation (SAE) offers a methodological tool for producing more efficient regional estimates via a model-based approach. OpenStreetMap is examined as a new auxiliary data source because it provides geo-referenced high-resolution information that may help explain regional variation in social cohesion.
+This repository contains the data and code needed to reproduce the findings of my master's thesis, which examines whether OpenStreetMap data can serve as a new source of auxiliary information for producing small area estimates of social cohesion across European sub-national regions.
+
+The study responds to the need for reliable evidence on regional differences in social cohesion for policy-making. While survey data are well suited for measuring social indicators, they often provide too few observations within individual regions to support stable sub-national estimates. Small area estimation (SAE) offers a methodological tool for producing more efficient regional estimates via a model-based approach. OpenStreetMap is examined as a new auxiliary data source because it provides geo-referenced, high-resolution information that may help explain regional variation in social cohesion.
 
 In the first step, a multilevel confirmatory factor analysis model is estimated using individual survey data from the European Social Survey (ESS) Round 11. Individual factor scores for each of the five latent social cohesion dimensions are then predicted and aggregated to the sub-national level through direct estimation. In the second step, Fay-Herriot small area models are fitted for each dimension using three auxiliary-data specifications: administrative data only, OpenStreetMap data only, and both sources combined. The models are compared in terms of efficiency gains, agreement with direct estimates, and validation against external evidence.
 
-The results show that OpenStreetMap-based specifications improve the precision of the estimates markedly less than specifications based on administrative data. However, OSM-based models preserve the direct survey signal more closely and avoid some of the stronger regional reorderings introduced by administrative models. The thesis therefore argues that low-explanatory-power models can still be
-valuable in SAE when stronger models risk misrepresenting regional patterns.
+The results show that OpenStreetMap-based specifications improve the precision of the estimates markedly less than specifications based on administrative data. However, OSM-based models preserve the direct survey signal more closely and avoid some of the stronger regional reorderings introduced by administrative models. The thesis therefore argues that low-explanatory-power models can still be valuable in SAE when stronger models risk misrepresenting regional patterns.
 
-
-
-
-# TBA
-
-- Short summary of the aim of this repo / Intro
-- Folder structure
-- Instructions on the Mplus step 
-- Rproj file
-- Prerequisites for reproducing results
-- More details about the scripts
-- Ethics
-- License
-- Permission and access
-
-## Reproducibility instructions
-
-Please keep the repository folder structure unchanged. All scripts should be run from the repository root directory.
-
-## Running the scripts
-
-The scripts in `01_scripts/` require outputs produced by previous scripts. Therefore, they should be run in the following order:
+## Repository structure
 
 ``` text
-00_prepare_mplus_input_from_raw_ess_data.R
-01_import_and_clean_mplus_output.R
-02_import_admin_data.R
-03_transform_admin_data.R
-04_import_and_combine_osm_data.R
-05_aggregate_osm_data.R
-06_produce_direct_estimates.R
-07_produce_final_data.R
-08_fit_small_area_models.R
-09_fit_sensitivity.R
-10_sae_analysis_dataset.R
-11_gof_and_coefficients.R
-12_eblup_estimates.R
-13_pairwise_analysis.R
-14_diagnostic_plots.R
-15_eblup_maps.R
-16_results_tables.R
-17_describe_data_tbls_plots.R
+├── 00_data
+│   ├── derived
+│   └── raw
+│       ├── admin
+│       ├── ess11
+│       └── osm
+├── 01_scripts
+├── 02_mplus
+├── 03_output
+│   ├── evidence
+│   ├── model_fits
+│   ├── plots
+│   └── tables
+├── apa.csl
+├── diagram.png
+├── LICENSE
+├── manuscript.qmd
+├── ma_thesis.Rproj
+├── README.md
+├── references.bib
+├── renv
+└── renv.lock
 ```
 
-Scripts `08_fit_small_area_models.R` and `09_fit_sensitivity.R` use multicore processing on Unix-like systems. If running the project on Windows, the parallel processing setup may need to be adjusted. Details on how to do this are included in the relevant scripts.
+## Reproducing the results
 
-## Data files not included in this repository
-
-The following files are **not included** in this repository due to GitHub file size restrictions:
+To reproduce the analysis, first open the RStudio project file:
 
 ``` text
-00_data/derived/osm_data_combined_2023.csv
-00_data/derived/osm_data_combined_2023.geojson
+ma_thesis.Rproj
+```
+
+All R scripts should be run from the project root directory.
+
+### 1. Restore the R package environment
+
+This project uses `renv` to record the R package environment used for the analysis. The file `renv.lock` contains the package versions required to reproduce the results.
+
+After cloning the repository, restore the package environment by running:
+
+``` r
+renv::restore()
+```
+
+This installs the required package versions into a project-specific library. The local package library is not tracked in Git.
+
+### 2. Download the ESS11 data
+
+The following raw files are not included in this repository due to GitHub file size restrictions:
+
+``` text
 00_data/raw/admin/raw_data_estat.Rds
 00_data/raw/ess11/ESS11.csv
 ```
@@ -95,16 +97,138 @@ Please cite the dataset as follows:
 > Sikt - Norwegian Agency for Shared Services in Education and Research.\
 > <https://doi.org/10.21338/ess11e04_1>
 
-All other files listed above are generated automatically when running the project scripts in the required order.
+The administrative dataset is generated by downloading data from the Eurostat database via the R package `eurostat`. The code needed for this is included in:
 
-## R package environment
-
-This project uses `renv` to record the R package environment used for the analysis.
-
-After cloning the repository, install the required R packages by running the following command from the project root:
-
-```r
-renv::restore()
+``` text
+01_scripts/02_import_admin_data.R
 ```
 
-This will install the package versions recorded in `renv.lock`.
+All raw OSM data files are included in this repository.
+
+### 3. Run the analysis scripts
+
+The scripts in `01_scripts/` depend on outputs produced by previous scripts. Therefore, they should be run in the following order:
+
+``` text
+00_prepare_mplus_input_from_raw_ess_data.R
+--- Mplus step ---
+01_import_and_clean_mplus_output.R
+02_import_admin_data.R
+03_transform_admin_data.R
+04_import_and_combine_osm_data.R
+05_aggregate_osm_data.R
+06_produce_direct_estimates.R
+07_produce_final_data.R
+08_fit_small_area_models.R
+09_fit_sensitivity.R
+10_sae_analysis_dataset.R
+11_gof_and_coefficients.R
+12_eblup_estimates.R
+13_pairwise_analysis.R
+14_diagnostic_plots.R
+15_eblup_maps.R
+16_results_tables.R
+17_describe_data_tbls_plots.R
+```
+
+After running `00_prepare_mplus_input_from_raw_ess_data.R`, the generated input needs to be processed in Mplus. The MCFA model was estimated and factor scores were predicted using **Mplus Version 8.11**. All files required for this step are included in:
+
+``` text
+02_mplus/
+```
+
+The relevant Mplus input file is:
+
+``` text
+02_mplus/01_nuts1_ml_all_cont.inp
+```
+
+The output from the Mplus step is then imported and cleaned by:
+
+``` text
+01_scripts/01_import_and_clean_mplus_output.R
+```
+
+### 4. Computational notes
+
+Scripts `08_fit_small_area_models.R` and `09_fit_sensitivity.R` use multicore processing on Unix-like systems. If running the project on Windows, the parallel processing setup may need to be adjusted. Details are included in the relevant scripts.
+
+On 5 cores, the model-fitting step took approximately 7–8 hours.
+
+### 5. Compile the manuscript
+
+The manuscript is written in Quarto:
+
+``` text
+manuscript.qmd
+```
+
+It sources tables, plots, and model output from:
+
+``` text
+03_output/
+```
+
+After reproducing the analysis, the final PDF can be compiled from `manuscript.qmd`.
+
+## Folder and file descriptions
+
+### `ma_thesis.Rproj`
+
+This is the R project file for the repository. It contains the project settings and configuration. When running the project, it is useful to open this file in RStudio.
+
+### `00_data/`
+
+This folder contains the data used in the analyses. It is divided into `derived` and `raw`. The `raw` folder contains the subfolders `admin`, `ess11`, and `osm`.
+
+### `01_scripts/`
+
+This folder contains all R scripts required to reproduce the analysis. The required execution order is described in the section **Reproducing the results**.
+
+### `02_mplus/`
+
+This folder contains the code and input required for estimating the MCFA model and predicting the factor scores in Mplus. The relevant Mplus input file is:
+
+``` text
+01_nuts1_ml_all_cont.inp
+```
+
+The output from `00_prepare_mplus_input_from_raw_ess_data.R` serves as input for this step. The output of the Mplus code is then loaded in:
+
+``` text
+01_scripts/01_import_and_clean_mplus_output.R
+```
+
+### `03_output/`
+
+This folder contains output produced by the R scripts, including estimated model fits, tables, plots, and evidence files used for model performance comparisons and pairwise comparisons between regions.
+
+### `manuscript.qmd`
+
+This Quarto file contains the full manuscript and sources output from the `03_output/` folder. It is used to compile the final PDF.
+
+### `diagram.png`
+
+This file contains the schematic illustration of the MCFA model included in the manuscript. The illustration was manually produced.
+
+### `apa.csl` and `references.bib`
+
+These files contain the citation style and reference information used in the manuscript. Both are sourced by `manuscript.qmd`.
+
+### `renv` and `renv.lock`
+
+The project uses `renv` for package management. The file `renv.lock` records the package versions required to reproduce the analysis. Instructions for restoring the package environment are provided in the section **Reproducing the results**.
+
+## License
+
+This project is licensed under the GNU General Public License v3.0. See the [LICENSE](https://github.com/lidiyamishieva/ma_thesis/blob/main/LICENSE) file for details.
+
+## Ethics and privacy
+
+Ethics approval was granted by [Ethics Review Board of the Faculty of Social & Behavioural Sciences at Utrecht University](https://ferb.sites.uu.nl). The ethical approval case numbers are 5-2056 and 25-2057.
+
+By using the OSM and ESS data, we acknowledge that the data is publicly available and does not contain any personally identifiable information.
+
+## Permissions and Access
+
+This archive will indefinitely be publicly available on [GitHub](https://github.com/lidiyamishieva/ma_thesis). Full responsibility for the content of this repository lies with Lidiya Mishieva. For questions, please open an issue in this GitHub repository.
