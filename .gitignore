@@ -38,3 +38,4 @@ rsconnect/
 *.utf8.md
 vignettes/*.html
 vignettes/*.pdf
+presentation/
