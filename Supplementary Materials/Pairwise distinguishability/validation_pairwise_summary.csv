@@ -1,6 +1,0 @@
-"response_index","n_pairs","direct_sig","a_sig","b_sig","c_sig","a_flip_vs_direct","b_flip_vs_direct","c_flip_vs_direct","a_spurious_weak","a_spurious_strong","a_spurious","b_spurious_weak","b_spurious_strong","b_spurious","c_spurious_weak","c_spurious_strong","c_spurious","a_vs_b_flip","a_vs_b_both_sig_conf"
-1,10296,570,2140,761,2690,4013,2386,3979,556,0,556,18,0,18,694,3,697,3949,19
-2,10296,591,914,764,994,3446,2473,3327,102,0,102,4,0,4,115,0,115,4047,1
-3,10296,603,2707,932,2707,4000,2257,4000,780,2,782,18,0,18,780,2,782,4165,97
-4,10296,1189,1455,1407,1799,2258,1826,2498,28,0,28,13,0,13,66,0,66,2416,0
-5,10296,1314,1654,1618,1954,2001,1557,2157,6,0,6,21,0,21,23,0,23,2218,0
